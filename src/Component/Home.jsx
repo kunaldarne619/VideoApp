@@ -46,25 +46,25 @@ const Home = () => {
 const MyCarousel =()=>(
   <Carousel autoPlay infiniteLoop interval={1000} showArrows={false} showStatus={false} showThumbs={false} >
     <Box w={'full'} h='100vh'>
-  <Image src={img1} w={['full','100%']}/>
+  <Image src={img1} h='full' w='full' objectFit='cover'/>
   <Heading bgColor={'blackAlpha.600'} color='white' {...headingOptions}>
     Watch the Future
   </Heading>
     </Box>
     <Box w={'full'} h='100vh'>
-  <Image src={img2} w={['full','100%']}/>
+  <Image src={img2} h='full' w='full' objectFit='cover'/>
   <Heading bgColor={'whiteAlpha.600'} color='black'{...headingOptions}>
     Future is Gaming
   </Heading>
     </Box>
     <Box w={'full'} h='100vh'>
-  <Image src={img3} w={['full','100%']}/>
+  <Image src={img3} h='full' w='full' objectFit='cover'/>
   <Heading bgColor={'whiteAlpha.600'} color='black'{...headingOptions}>
     Gaming on Console
   </Heading>
     </Box>
     <Box w={'full'} h='100vh'>
-  <Image src={img4} w={['full','100%']}/>
+  <Image src={img4} h='full' w='full' objectFit='cover'/>
   <Heading bgColor={'whiteAlpha.600'} color='black'{...headingOptions}>
     Night Life is Cool
   </Heading>
